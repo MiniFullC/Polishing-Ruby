@@ -16,7 +16,7 @@ end
 
 # 简单的正则匹配
 
-names = ["我很", "好", "我是", "快乐"]
+names = ["我很", "好", "很爱你们", "我是", "快乐"]
 names.each do |name|
     if /很/ =~ name
         puts name
